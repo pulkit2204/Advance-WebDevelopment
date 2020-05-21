@@ -1,0 +1,124 @@
+* {
+margin: 0;
+padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+#container {    
+margin: 0 auto;
+width:100%;
+font-family: Arial;
+}
+header{
+    background: url(pro-images/background-header.jpg);
+    width: 100%;
+    color:white;
+}
+#left_header{
+    padding: 50px 0;
+    float: left;
+    margin-left: 30px;
+    cursor: default;
+}
+#left_header:hover{
+    color:orangered;
+}
+#right_header{
+float: right;
+}
+#right_header ul{}
+#right_header ul li{
+float: left;
+padding: 57px 30px;
+font-size: 20px;
+font-weight: bold;
+margin-right: 0 2px;
+transition: background 1s;
+cursor: pointer;
+}
+#right_header ul li:hover{
+    background: orange;
+}
+main{}
+.main_img{
+    width:100%;
+    height: 100%;
+}
+.first_section{
+    padding: 0 5%;
+}
+.first_section h2 {
+    text-align: center; 
+    font-size:60px;
+    padding: 50px;
+    color:crimson;
+    text-shadow: 1px 1px 5px black;
+    }
+article{
+    width: 20%;
+    margin: 20px 5% 20px 0;
+    float:left; 
+    color:#666;
+}
+.margin_left{
+    margin-left: 3%;
+}
+.margin_right{
+    margin-right: 0%;
+}
+article img{
+    width:100%;
+    height:200px;
+}
+article img:hover{
+    animation: img_animation 2s;
+}
+.img_block{
+    height:200px;
+    overflow: hidden;
+}
+@keyframes img_animation{
+    from{width: 100%;}
+    to{width: 120%;}
+    from{height: 100%;}
+    to{height: 120%;}
+}
+.article_title{
+    text-align: center;
+    font-size: 30px;
+    margin:20px;
+    font-weight: bold;
+    transition: background 2s;
+    font-family:Times New Roman;
+}
+.article_title:hover{
+    color:red;
+}
+.article_description{
+text-align: center;
+}
+footer{
+    width: 100%;
+    background:grey;
+    color:whitesmoke;
+    background: url(pro-images/background-header.jpg);
+}
+.left_footer{
+    padding: 20px;
+    float: left;
+}
+.right_footer{
+    padding: 18px;
+    float: right;
+}
+.right_footer ul{}
+.right_footer ul li{
+    float:left;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.right_footer ul li:hover{
+color: orangered;
+}
